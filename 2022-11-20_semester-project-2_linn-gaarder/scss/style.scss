@@ -1,0 +1,15 @@
+@use 'custom';
+
+/* Components */
+
+@use 'components/layout';
+@use 'components/typography';
+@use 'components/messages';
+
+/* Sections */
+
+@use 'sections/categories';
+@use 'sections/featured';
+@use 'sections/footer';
+@use 'sections/inspo';
+@use 'sections/details';

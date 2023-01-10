@@ -1,0 +1,62 @@
+@use '../custom' as *;
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    margin: 3rem 0 3rem 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    padding: 100px 100px 30px 100px;
+}
+
+h3 {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 600px;
+}
+
+.card a {
+    font-family: 'Amaranth', sans-serif;
+}
+
+.category-container {
+    margin: 3rem 0 5rem 0;
+    text-align: center;
+}
+
+.category-container a,
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.category-container a:hover,
+.category-container a:focus,
+.card a:hover,
+.card a:focus {
+    text-decoration: underline;
+}
+
+.card a:hover {
+    background-color: $pink-light;
+    border: none;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 6rem;
+}
